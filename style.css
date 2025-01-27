@@ -43,7 +43,7 @@ h2 {
 
 #about p {
     max-width: 800px;
-    margin: 0 auto;
+    margin: inherit;
 }
 
 #amenities ul {
