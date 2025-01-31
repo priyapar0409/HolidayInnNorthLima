@@ -28,6 +28,32 @@
                 <li>Free Wi-Fi</li>
             </ul>
         </section>
+        <section id="availability">
+            <h2>Check Availability</h2>
+            <form id="availabilityForm">
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <label for="rooms">Rooms:</label>
+                <select id="rooms" name="rooms">
+                    <option value="1">1 Room</option>
+                    <option value="2">2 Rooms</option>
+                    <option value="3">3 Rooms</option>
+                </select>
+
+                <label for="guests">Guests:</label>
+                <select id="guests" name="guests">
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                </select>
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
         <section id="gallery">
             <h2>Gallery</h2>
             <div class="gallery">
